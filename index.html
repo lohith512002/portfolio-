@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Computer Science Graduate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <div class="intro-container">
+            <div class="intro">
+                <h1>Hi, I'm Poduru Lohith Charan</h1>
+                <p>A passionate Computer Science graduate and aspiring FullStack developer.</p>
+                <button onclick="scrollToSection('about')">Learn More</button>
+            </div>
+            <div class="intro-image">
+                <img src="images/lc-removebg-preview.png" alt="Your Photo">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>
+                    I am a recent Computer Science graduate with a strong interest in FullStack development, web technologies, and
+                    building efficient and scalable applications. I am eager to apply my skills and contribute to a growth-oriented
+                    organization.
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="images/IMG20220327130129.jpg" alt="Your Photo">
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project">
+                <h3>Project 1: Threat Detection System of Websites using ML</h3>
+                <p>A responsive web application built using HTML, CSS, JavaScript, and Machine Learning. This application analyzes and evaluates the safety of a website by inspecting its URL. By leveraging machine learning models, it detects potential threats like phishing, malware, or other malicious activities. The system empowers users to ensure they are interacting with legitimate and secure websites, enhancing online security. </p>
+            </div>
+            <div class="project">
+                <h3>Project 2: LPG Lekage Detection System using IOT and ML</h3>
+                <p>Developed an IoT solution for LPG leakage detection integrated with Machine Learning. Utilized gas sensors, Arduino, exhaust fans, and buzzers to detect gas leaks and trigger simultaneous safety actions, including sending SMS alerts to users. The system ensures real-time response and user notification for enhanced safety and prevention of hazards.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Python</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">FullStack developer</div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p>If you would like to connect, feel free to send me an email or reach out via LinkedIn.</p>
+        <p>Email: <a href="mailto:p.lohithcharan@gmail.com" class="highlight">p.lohithcharan@gmail.com</a></p>
+        <p>Phone: <a href="tel:+919381071931" class="highlight">+919381071931</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/poduru-lohith-charan-84070521a" class="highlight" target="_blank">www.linkedin.com/in/poduru-lohith-charan-84070521a</a></p>
+        <button onclick="sendEmail()">Contact</button>
+    </section>
+
+    <footer>
+        <p>© 2024 [Lohith Charan]. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
